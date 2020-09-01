@@ -809,11 +809,11 @@ header {
   font-weight: 700;
 }
 
-.wr-finished-progect {
+.wr-finished-project {
   padding-bottom: 190px;
 }
 
-.wr-finished-progect h2 {
+.wr-finished-project h2 {
   margin-bottom: 15px;
 }
 
@@ -822,25 +822,25 @@ header {
   margin-bottom: 96px;
 }
 
-.wr-finished-progect-1 {
+.wr-finished-project-1 {
   margin-bottom: 90px;
 }
 
-.finished-progect-1 {
+.finished-project-1 {
   max-width: 100%;
   height: 425px;
   position: relative;
   cursor: pointer;
 }
 
-.finished-progect-2 {
+.finished-project-2 {
   max-width: 422px;
   height: 417px;
   position: relative;
   cursor: pointer;
 }
 
-.finished-progect-3 {
+.finished-project-3 {
   max-width: 422px;
   height: 417px;
   position: relative;
@@ -871,7 +871,7 @@ header {
   opacity: 0.8;
 }
 
-.finished-progect-1-hover {
+.finished-project-1-hover {
   background-image: url(../media/finished-project/hover.png), linear-gradient(89.97deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
   background-repeat: no-repeat, no-repeat;
   background-position: left 0 bottom 0, 0;
@@ -879,28 +879,28 @@ header {
   padding: 48px 65px;
 }
 
-.finished-progect-2-hover {
+.finished-project-2-hover {
   background: linear-gradient(309.18deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
 }
 
-.finished-progect-3-hover {
+.finished-project-3-hover {
   background: linear-gradient(306.81deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
 }
 
-.finished-progect-2-hover,
-.finished-progect-3-hover {
+.finished-project-2-hover,
+.finished-project-3-hover {
   padding: 24px 32px;
 }
 
-.finished-progect-1:hover .finished-progect-1-hover,
-.finished-progect-2:hover .finished-progect-2-hover,
-.finished-progect-3:hover .finished-progect-3-hover {
+.finished-project-1:hover .finished-project-1-hover,
+.finished-project-2:hover .finished-project-2-hover,
+.finished-project-3:hover .finished-project-3-hover {
   opacity: 1;
 }
 
-.finished-progect-1 img,
-.finished-progect-2 img,
-.finished-progect-3 img {
+.finished-project-1 img,
+.finished-project-2 img,
+.finished-project-3 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1403,7 +1403,7 @@ header {
     background-image: url(../media/intro/intro-img.webp), linear-gradient(0deg, rgba(152, 195, 232, 0.3) 8.84%, rgba(152, 195, 232, 0) 31.12%);
   }
 
-  .finished-progect-1-hover {
+  .finished-project-1-hover {
     background-image: url(../media/finished-project/hover.webp), linear-gradient(89.97deg, #1f3f68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
   }
 
@@ -1459,7 +1459,7 @@ header {
   }
 
   .wr-advantages,
-  .wr-finished-progect {
+  .wr-finished-project {
     padding-top: 60px;
     padding-bottom: 60px;
   }
