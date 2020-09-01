@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Galien";
+    src: url(../fonts/Galien/Galien.woff2) format("woff2"), url(../fonts/Galien/Galien.woff) format("woff"),
+        url(../fonts/Galien/Galien.ttf) format("truetype"), url(../fonts/Galien/Galien.eot);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/Gilroy/Gilroy.woff2) format("woff2"), url(../fonts/Gilroy/Gilroy.woff) format("woff"),
+        url(../fonts/Gilroy/Gilroy.ttf) format("truetype"), url(../fonts/Gilroy/Gilroy.eot);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+//Переменные для цветов
+$dark-blue: #1f3f68;
+$main-color: #316099;
+$light-blue: #356ead;
+$lighten-blue: #98c3e8;
+$button-color: #5a98d0;
+$white: #fff;
+
+body {
+    overflow-x: hidden;
+    font-family: "Gilroy";
+    font-size: 16px;
+    color: $dark-blue;
+}
+div,
+a,
+svg {
+    transition: all 0.4s ease;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+}
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+h1 {
+    font-family: "Galien";
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: $dark-blue;
+    margin-top: 0;
+    margin-bottom: 5vh;
+    max-width: 32rem;
+}
+.menu a {
+    font-family: "Galien";
+    font-size: 25px;
+    color: $white;
+    font-weight: 600;
+    padding: 5px;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.6;
+}
+a:active,
+a:focus {
+    opacity: 0.6;
+}
+button {
+    cursor: pointer;
+}
+button:hover,
+.btn-form:hover,
+.btn-form:active {
+    opacity: 0.6;
+}
+button:active,
+button:focus {
+    outline: none;
+    opacity: 0.6;
+}
+input,
+textarea {
+    outline: none;
+}
+input:active,
+textarea:active {
+    outline: none;
+}
+:focus {
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+textarea {
+    resize: vertical;
+}
+textarea {
+    resize: horizontal;
+}
+.container-lg {
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    color: $main-color;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: $main-color;
+}
+h3 {
+    font-size: 20px;
+    color: $light-blue;
+    opacity: 0.8;
+    font-weight: 600;
+}
+h4 {
+    font-size: 20px;
+    color: $dark-blue;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
