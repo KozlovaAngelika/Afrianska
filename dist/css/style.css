@@ -814,6 +814,10 @@ header {
   position: relative;
 }
 
+.wr-video {
+  position: relative;
+}
+
 .wr-our-team video {
   width: 100%;
   height: 425px;
@@ -853,9 +857,77 @@ header {
 }
 
 .play-video,
-.pause-video {
-  fill: red;
+.pause-video,
+.on-mute,
+.off-mute {
+  fill: #fff;
   width: 20px;
+}
+
+.action-block-controls {
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background: rgba(119, 118, 118, 0.5);
+}
+
+.range-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.active-range {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #356ead;
+  z-index: 0;
+}
+
+.range-video input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 25px;
+  background: transparent;
+  outline: none;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 15;
+  padding: 0;
+  margin: 0;
+}
+
+.video-mute {
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.video-mute svg {
+  width: 18px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.play-pause svg {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 
 .wr-finished-project {
