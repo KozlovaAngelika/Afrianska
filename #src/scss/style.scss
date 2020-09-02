@@ -205,7 +205,16 @@ header {
     color: $button-color;
     font-weight: 700;
 }
-
+// Видео
+.wr-our-team {
+    padding-bottom: 90px;
+}
+.wr-our-team video {
+    width: 100%;
+    height: 425px;
+    margin: 0 auto;
+    object-fit: cover;
+}
 //Последние работы
 .wr-finished-project {
     padding-bottom: 90px;
@@ -214,7 +223,8 @@ header {
     margin-bottom: 15px;
 }
 .finished-project-description,
-.clients-description {
+.clients-description,
+.our-team-description {
     margin-bottom: 96px;
 }
 .wr-finished-project-1 {

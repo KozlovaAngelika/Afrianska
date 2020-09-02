@@ -809,6 +809,18 @@ header {
   font-weight: 700;
 }
 
+.wr-our-team {
+  padding-bottom: 90px;
+}
+
+.wr-our-team video {
+  width: 100%;
+  height: 425px;
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .wr-finished-project {
   padding-bottom: 90px;
 }
@@ -818,7 +830,8 @@ header {
 }
 
 .finished-project-description,
-.clients-description {
+.clients-description,
+.our-team-description {
   margin-bottom: 96px;
 }
 
