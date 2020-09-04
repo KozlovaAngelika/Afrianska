@@ -709,6 +709,9 @@ header {
     border-radius: 10px;
     border: none;
 }
+.btn-disabled {
+    opacity: 0.6;
+}
 @media (max-width: 1160px) {
     .wr-intro {
         background-image: linear-gradient(rgba(255, 255, 255, 0.8)), url(../media/intro/intro-img.webp);

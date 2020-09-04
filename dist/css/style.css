@@ -1410,6 +1410,10 @@ header {
   border: none;
 }
 
+.btn-disabled {
+  opacity: 0.6;
+}
+
 #seek-bar::-webkit-slider-thumb {
   -webkit-appearance: none;
           appearance: none;
