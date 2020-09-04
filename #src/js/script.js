@@ -12,18 +12,21 @@ $(document).ready(function () {
         $('.header').toggleClass('active')
     });
 
-    fullName.addEventListener('keyup', function () {
-        isValidFullName = checkIsBlank(fullName);
-        checkForm();
-    });
-    yourEmail.addEventListener('keyup', function () {
-        isValidYourEmail = checkEmail(yourEmail);
-        checkForm();
-    });
-    yourMessage.addEventListener('keyup', function () {
-        isValidYourMessage = checkIsBlank(yourMessage);
-        checkForm();
-    });
+    if (document.querySelector('.contact-form')) {
+        fullName.addEventListener('keyup', function () {
+            isValidFullName = checkIsBlank(fullName);
+            checkForm();
+        });
+        yourEmail.addEventListener('keyup', function () {
+            isValidYourEmail = checkEmail(yourEmail);
+            checkForm();
+        });
+        yourMessage.addEventListener('keyup', function () {
+            isValidYourMessage = checkIsBlank(yourMessage);
+            checkForm();
+        });
+    }
+
 });
 
 let checkForm = function () {

@@ -751,7 +751,8 @@ header {
     }
 
     .wr-advantages,
-    .wr-finished-project {
+    .wr-finished-project,
+    .wr-our-team {
         padding-top: 60px;
         padding-bottom: 60px;
     }
@@ -787,7 +788,8 @@ header {
         align-self: center;
     }
     .finished-project-description,
-    .clients-description {
+    .clients-description,
+    .our-team-description {
         margin-bottom: 35px;
     }
     .finished-project-2,
@@ -879,23 +881,7 @@ header {
     .search-article {
         padding-left: 40px;
     }
-}
-#seek-bar::-webkit-slider-thumb {
-    appearance: none;
-    width: 0;
-    height: 0;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    z-index: 99;
-}
-
-#seek-bar::-moz-range-thumb {
-    appearance: none;
-    width: 0;
-    height: 0;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    z-index: 99;
+    .wr-our-team {
+        display: none;
+    }
 }

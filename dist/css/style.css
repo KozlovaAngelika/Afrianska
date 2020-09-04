@@ -1414,30 +1414,6 @@ header {
   opacity: 0.6;
 }
 
-#seek-bar::-webkit-slider-thumb {
-  -webkit-appearance: none;
-          appearance: none;
-  width: 0;
-  height: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  z-index: 99;
-}
-
-#seek-bar::-moz-range-thumb {
-  -moz-appearance: none;
-       appearance: none;
-  width: 0;
-  height: 0;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  z-index: 99;
-}
-
 @supports (-webkit-appearance: none) {
   .wr-intro {
     background-image: url(../media/intro/intro-img.webp), -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, rgba(152, 195, 232, 0.3)), color-stop(31.12%, rgba(152, 195, 232, 0)));
@@ -1500,7 +1476,8 @@ header {
   }
 
   .wr-advantages,
-  .wr-finished-project {
+  .wr-finished-project,
+  .wr-our-team {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -1542,7 +1519,8 @@ header {
   }
 
   .finished-project-description,
-  .clients-description {
+  .clients-description,
+  .our-team-description {
     margin-bottom: 35px;
   }
 
@@ -1681,5 +1659,9 @@ header {
 @media (max-width: 576px) {
   .search-article {
     padding-left: 40px;
+  }
+
+  .wr-our-team {
+    display: none;
   }
 }
