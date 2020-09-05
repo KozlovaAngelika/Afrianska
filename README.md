@@ -6,7 +6,7 @@
 - <a href="https://kozlovaangelika.github.io/afrianska/dist/contact-us.html">Contact Us</a> (contains contacts);
 
 Description:
-- The site is made according to <a href="https://www.figma.com/file/vRMJVq9Byaw7lHp9O5Dzlz/afrianska-landingpage?node-id=0%3A1">an exclusive layout</a>
+- The site is made according to <a href="https://www.figma.com/file/vRMJVq9Byaw7lHp9O5Dzlz/afrianska-landingpage?node-id=0%3A1">an exclusive layout.</a>
 - The site is responsive cross-browser, has optimized images.
 - Technology used: bootstrap, grid, flexbox and so on. 
 
